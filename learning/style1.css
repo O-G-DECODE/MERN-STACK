@@ -1,0 +1,23 @@
+  
+#demo {
+    background-color: #27fc0b;
+    width:300px;
+    margin:auto;
+    display: inline-block;
+    overflow:auto;
+    width: 30%;
+  display: inline-block;
+}
+
+#style1 {
+  background-color: red;
+}
+
+#home{
+  background-color: rgb(230, 230, 234);
+  align-items: left;
+}
+
+#pink {
+  color: pink;
+}
