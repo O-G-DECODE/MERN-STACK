@@ -37,6 +37,9 @@ function swap(){
     document.getElementById("inpt").value = a;
 
 }
+
+
+
 // if (condition == "10") - check only the value
 // if (condition === "10") - check the value and datatype is equal
 
