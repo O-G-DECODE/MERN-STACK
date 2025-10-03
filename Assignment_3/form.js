@@ -6,9 +6,10 @@ function Error(){
     let Warning = "Form Submitted";
 
     if (namefield == "" ){
-         alert("Please enter your name")
+         document.getElementById('Errorname').innerHTML =("Please enter your name")
     } else if (adressField == "") {
-        alert("Please enter your Adress")
+
+         document.getElementById('ErrorAddress').innerHTML =("Please enter your Address")
     }
       else if (EmailField == "") {
         document.getElementById('ErrorEmail').innerHTML = "Please enter your Email";
@@ -17,7 +18,7 @@ function Error(){
         document.getElementById('ErrorPhone').innerHTML = "enter your Phone Number";
     }
     else{
-        document.getElementById('Form').sumbmit();
+        document.getElementById('Form').submit();
         document.getElementById('warning').value = Warning;
     }
 }
