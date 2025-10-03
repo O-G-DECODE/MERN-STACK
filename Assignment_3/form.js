@@ -3,6 +3,7 @@ function Error(){
     let adressField = document.getElementById('adress').value;
     let EmailField = document.getElementById('email').value;
     let PhoneField = document.getElementById('phone').value;
+    let Warning = "Form Submitted";
 
     if (namefield == "" ){
          alert("Please enter your name")
@@ -17,5 +18,6 @@ function Error(){
     }
     else{
         document.getElementById('Form').sumbmit();
+        document.getElementById('warning').value = Warning;
     }
 }
