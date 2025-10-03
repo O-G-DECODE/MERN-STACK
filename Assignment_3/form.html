@@ -8,13 +8,13 @@
     <script src="form.js"></script>
 </head>
 <body>
- <div id="form"><form action="" id="Form">
+ <div id="form"><form action="" id="Form" method="post">
     <div class="div">
         <h2 id="heading" name="heading"> STUDENT DETAILS</h2>
     </div>
 
     <div class="div">
-       <span class="span">Name :</span>  <input type="text" id="name" name="name"> 
+       <span class="span">Name :</span>  <input type="text" id="name" name="name"> <span id="Errorname"></span>
     </div>
 
     <div class="div">
@@ -42,6 +42,7 @@
         <button type="button" id="button" onclick="Error()"> Submit</button>
     </div>
 </form>
+<div id="warning"></div>
  </div>
     
 </body>

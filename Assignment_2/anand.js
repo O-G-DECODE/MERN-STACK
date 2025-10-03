@@ -16,8 +16,8 @@ function error() {
     else if (description == ""){
         document.getElementById('errordescription').innerHTML = "Please enter the description"
     }
-
     else{
-        document.getElementById('form').submit();
+          document.getElementById('Form').submit();
+          alert("Form Submitted");
     }
 }
