@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/form.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="form.js"></script>
+</head>
+<body>
+ <div id="form">
+    <form action="" id="Form" method="post"  onsubmit="return Error();
+    ">
+    <div class="div">
+        <h2 id="heading" name="heading"> STUDENT DETAILS</h2>
+    </div>
+
+    <div class="div">
+       <span class="span">Name :</span>  <input type="text" id="name" name="name">
+
+    <div class="div">
+       <span class="span">Adress :</span>  <textarea name="adress" id="adress"></textarea> 
+    </div>
+
+    <div class="div">
+       <span class="span">Email :</span>  <input type="text" id="email" name="email"> 
+    </div>
+
+    <div class="div">
+       <span class="span">Phone :</span>  <input type="text" id="phone" name="phone"> 
+    </div>
+    <div class="div">
+       <span>Department Name :</span>  
+       <span class="div">
+         <select  id="dep">
+            <option value="DDUKK">DDUKK CUSAT</option>
+            <option value="PHYSICS">PHYSICS</option>
+            <option value="MATHS">MATHS</option>
+         </select>
+       </span>   
+    </div>
+    <div>
+        <button type="submit" id="button" > Submit</button>
+    </div>
+</form>
+<div id="warning"></div>
+ </div>
+    
+</body>
+</html>

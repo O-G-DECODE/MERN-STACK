@@ -1,0 +1,17 @@
+.div{
+    padding-bottom: 2%;
+}
+
+.span {
+    padding-right: 1%;
+    margin-right: 1%;
+    padding-bottom: 2%;
+}
+#form {
+    margin-left: 30%;
+    padding-left: 10%;
+    margin-right: 30%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-width: 20%;
+}
