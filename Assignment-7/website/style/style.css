@@ -1,0 +1,101 @@
+#container{
+    display: flex;
+    width: 100%;
+    margin-left : 5%;
+    margin-right: 5%;
+}
+#name {
+    text-align: center;
+    padding-top:15%;
+    font-family:cursive;
+}
+.name{
+    color: #7770be;
+    background-color:hsl(71, 30%, 85%);
+    width: 90%;
+    float: right;
+    padding-bottom: 15%;
+    margin-top: 5%;
+    border: 2px solid blue;
+
+    
+}
+#a {
+    text-decoration: none;
+    color: white;
+}
+#a1 {
+    text-decoration: none;
+}
+#head {
+    position: fixed;
+    width: 100%; 
+    top: 0;
+    left: 0;          
+    background-color: #3bbee2;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-sizing: border-box;  /* include padding in width calculation */
+    z-index: 1000;            /* stay above other content */
+}
+
+#subhead{
+    text-align: center;    
+    color:#c5209a;
+
+}
+/* #img{
+        float: left;
+        width: 30%;
+
+} */
+
+
+#aboutme , #projects ,#contact{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    margin-top: 3%;
+    color: rgb(138, 20, 20);
+    border: 2px solid blue;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #3461e9;
+
+}
+#content,#instagram {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#one, #two, #three {
+    border: 2px solid rgb(7, 7, 47);
+    align-items: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 1%;
+    
+}
+
+#instagram {
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 2px solid rgb(33, 33, 114);
+    margin-top: 2%;
+
+}
+#contact-form{
+    margin-left: 0px;
+
+}
+
+#submit{
+    padding-top: 20px;
+}
+
+.error{
+    color: red;
+}
