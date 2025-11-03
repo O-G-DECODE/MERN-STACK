@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body>
+    <a href="/"> <button> Back</button> </a>
+    <% if (typeof message !== 'undefined') { %>
+        <p style="color:red;"><%= message %></p>
+    <% } %>
+
+    <form action="" method="post">
+            <h2>Log-in Form</h2>
+        <div>
+            <span>email: </span>
+            <input type="text" id="email" name="email" value="">
+        </div>
+
+        <div>
+            <span>Password: </span>
+            <input type="password" id="password" name="password" value="">
+        </div>
+
+        <div>
+            <button type="submit">Login</button>
+        </div> 
+    </form>
+</body>
+</html>
