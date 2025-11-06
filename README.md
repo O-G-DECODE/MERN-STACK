@@ -24,3 +24,14 @@ Personal website with Node.js and Express.
 
 Assignment 9:
 Resume implemented with Node.js and Express.
+
+Assignment 10 — Sign Up and Login System : A simple authentication system where users can sign up and log in.
+User credentials are securely stored in a MongoDB database.
+
+Assignment 11 — Dynamic Resume (Frontend)A dynamic front-end resume application built with React.
+It fetches data from a backend API and displays it in a clean, styled layout.
+
+Assignment 12 — Dynamic Resume (Backend):
+Backend service for the dynamic resume.
+It connects to MongoDB, retrieves resume data, and serves it to the React frontend.s 
+
