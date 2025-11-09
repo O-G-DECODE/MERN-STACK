@@ -1,0 +1,153 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top:2% ;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#head {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #3bbee2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  z-index: 1000;
+  padding: 15px 0;
+}
+
+#a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#a1 {
+  text-decoration: none;
+  color: inherit;
+}
+
+.name {
+  background-color: hsl(71, 30%, 85%);
+  color: #7770be;
+  text-align: center;
+  padding: 100px 0 60px 0;
+  width: 90%;
+  margin-top: 70px;
+  border: 2px solid blue;
+}
+
+#name {
+  font-family: cursive;
+}
+
+#subhead {
+  color: #c5209a;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+#aboutme,
+#projects,
+#contact {
+  text-align: center;
+  width: 90%;
+  padding: 50px 20px;
+  margin: 40px 0;
+  border: 2px solid blue;
+  color: #3461e9;
+  box-sizing: border-box;
+}
+
+#content {
+  margin-top: 20px;
+  color: #333;
+  line-height: 1.6;
+}
+
+#projects h1 {
+  margin-bottom: 30px;
+}
+
+.project-item,
+#one,
+#two,
+#three {
+  border: 2px solid rgb(7, 7, 47);
+  width: 40%;
+  margin: 10px auto;
+  padding: 10px 0;
+  background-color: #f7f9ff;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.project-item:hover {
+  background-color: #e3ebff;
+}
+
+/* === SOCIAL LINKS === */
+#instagram {
+  width: 90%;
+  border: 2px solid rgb(33, 33, 114);
+  text-align: center;
+  padding: 15px 0;
+  margin: 15px 0;
+}
+
+#contact-form {
+  width: 90%;
+  text-align: left;
+  margin: 0 auto;
+}
+
+#contact-form span {
+  display: block;
+  margin-top: 10px;
+  color: #222;
+}
+
+#contact-form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#submit {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#button {
+  padding: 10px 20px;
+  background-color: #3bbee2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#button:hover {
+  background-color: #2a9ec3;
+}
+
+@media (max-width: 768px) {
+  .project-item,
+  #one,
+  #two,
+  #three {
+    width: 80%;
+  }
+
+  #head {
+    flex-direction: column;
+  }
+}
