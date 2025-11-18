@@ -24,7 +24,7 @@ app.post('/signup', async(req,res) => {
     await newUser.save();
     res.send("Data inserted")
     console.log(req.body)
-   }catch(eror){
+   }catch(error){
       console.error(error);
       res.status(500).send('❌ Error saving user.');
    }
